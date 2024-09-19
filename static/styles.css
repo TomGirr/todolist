@@ -1,0 +1,55 @@
+/* General page styles */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Shadows Into Light', cursive; /* Handwritten-like font */
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Lined paper background effect */
+.list-group {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, transparent 95%, rgba(0, 0, 0, 0.1) 96%);
+    background-size: 100% 40px; /* Height of each line */
+}
+
+/* Styling individual tasks */
+.list-group-item {
+    font-size: 18px;
+    line-height: 40px; /* Align with the lines */
+    border: none;
+    border-bottom: 1px dashed #ddd;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+/* Button styles */
+.btn-sm {
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+/* Add task input styles */
+input.form-control {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Handwritten font */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
