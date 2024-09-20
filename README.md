@@ -30,6 +30,50 @@ A simple To-Do List web application built with Flask that allows users to add, e
 
    ```bash
    git clone https://github.com/TomGirr/todolist.git
+   ```
+2. Navigate to the project directory:
+
+	```bash
+	cd todolist
+	```
+ 
+3. Create and activate a virtual environment (optional but recommended):
+
+	```bash
+	python -m venv venv
+	source venv/bin/activate  # On Windows: venv\Scripts\activate
+	```
+
+4. Install the required Python packages:
+
+	```bash
+	pip install -r requirements.txt
+	```
+
+## Running the Application
+
+1. Start the Flask development server:
+
+    ```bash
+	python app.py
+	```
+2. Open your browser and go to:
+
+	```arduino
+
+    http://127.0.0.1:5000/
+	```
+## Usage
+
+- Add Task: Use the form on the homepage to add a new task, with an optional due date.
+- Mark as Complete: Click the "Complete" button next to a task to mark it as completed.
+- Edit Task: Click the "Edit" button next to a task to update its name or due date.
+- Delete Task: Click the "Delete" button next to a task to remove it from the list.
+
+### Future Enhancements
+- Add persistent storage (e.g., a database) to save tasks permanently. 
+- User authentication to create personalized to-do lists.
+- Task filtering by date or priority.
    
 ## License
 
