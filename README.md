@@ -30,3 +30,8 @@ A simple To-Do List web application built with Flask that allows users to add, e
 
    ```bash
    git clone https://github.com/TomGirr/todolist.git
+   
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
